@@ -55,3 +55,15 @@ docs/_build/
 
 # PyBuilder
 target/
+
+
+## - custom --
+
+# OS X
+.DS_Store
+
+# Nikola
+_site/
+.doit.db.db
+cache/
+output/
