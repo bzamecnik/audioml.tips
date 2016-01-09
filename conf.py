@@ -126,16 +126,28 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
+# NAVIGATION_LINKS = {
+#     DEFAULT_LANG: (
+#         ("/archive.html", "Archive"),
+#         ("/categories/", "Tags"),
+#         ("/rss.xml", "RSS feed"),
+#     ),
+# }
+
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+        ('/index.html', 'Home', 'icon-home'),
+        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        ('https://getnikola.com', 'About me', 'icon-user'),
+        ('https://twitter.com/getnikola', 'My Twitter', 'icon-twitter'),
+        ('https://github.com/getnikola', 'My Github', 'icon-github'),
+    )
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "zen-ipython"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -170,11 +182,13 @@ POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.md", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.ipynb", "stories", "story.tmpl"),
 )
 
 
