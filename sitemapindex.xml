@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://audioml.tips/galleries/rss.xml</loc>
-  <lastmod>2016-01-10T00:42:00Z</lastmod>
+  <lastmod>2016-01-10T16:53:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://audioml.tips/rss.xml</loc>
@@ -15,6 +15,6 @@
  </sitemap>
  <sitemap>
   <loc>http://audioml.tips/sitemap.xml</loc>
-  <lastmod>2016-01-10T01:01:00Z</lastmod>
+  <lastmod>2016-01-10T16:53:00Z</lastmod>
  </sitemap>
 </sitemapindex>
