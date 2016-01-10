@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://audioml.tips/</loc>
-  <lastmod>2016-01-10T00:42:00Z</lastmod>
+  <lastmod>2016-01-10T01:01:00Z</lastmod>
  </url>
  <url>
   <loc>http://audioml.tips/2016/</loc>
@@ -19,11 +19,7 @@
  </url>
  <url>
   <loc>http://audioml.tips/categories/</loc>
-  <lastmod>2016-01-10T00:42:00Z</lastmod>
- </url>
- <url>
-  <loc>http://audioml.tips/categories/mathjax/</loc>
-  <lastmod>2016-01-09T22:47:00Z</lastmod>
+  <lastmod>2016-01-10T00:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://audioml.tips/galleries/</loc>
@@ -34,19 +30,11 @@
   <lastmod>2016-01-10T00:42:00Z</lastmod>
  </url>
  <url>
-  <loc>http://audioml.tips/posts/audioml-blog-and-slack/</loc>
-  <lastmod>2016-01-09T23:00:00Z</lastmod>
- </url>
- <url>
   <loc>http://audioml.tips/posts/audioml-blog/</loc>
   <lastmod>2016-01-10T00:42:00Z</lastmod>
  </url>
  <url>
   <loc>http://audioml.tips/posts/audioml-slack/</loc>
   <lastmod>2016-01-10T00:42:00Z</lastmod>
- </url>
- <url>
-  <loc>http://audioml.tips/posts/foo-bar/</loc>
-  <lastmod>2016-01-09T22:47:00Z</lastmod>
  </url>
 </urlset>
